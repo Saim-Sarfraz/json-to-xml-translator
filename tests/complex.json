@@ -1,0 +1,22 @@
+{
+  "title": "Compiler Construction",
+  "points": 10.5,
+  "students": [
+    {
+      "name": "John",
+      "id": "22i-1234",
+      "passed": true
+    },
+    {
+      "name": "Jane",
+      "id": "22i-5678",
+      "passed": false,
+      "details": null
+    }
+  ],
+  "meta": {
+    "tags": ["flex", "bison", "cpp"],
+    "version": 1.0,
+    "active": true
+  }
+}

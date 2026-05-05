@@ -1,0 +1,26 @@
+<root>
+  <title>Compiler Construction</title>
+  <points>10.5</points>
+  <students>
+    <item>
+      <name>John</name>
+      <id>22i-1234</id>
+      <passed>true</passed>
+    </item>
+    <item>
+      <name>Jane</name>
+      <id>22i-5678</id>
+      <passed>false</passed>
+      <details/>
+    </item>
+  </students>
+  <meta>
+    <tags>
+      <item>flex</item>
+      <item>bison</item>
+      <item>cpp</item>
+    </tags>
+    <version>1</version>
+    <active>true</active>
+  </meta>
+</root>
