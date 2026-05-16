@@ -12,7 +12,7 @@ A compiler-style translator that converts valid JSON input into well-formed XML.
   - Automatic XML character escaping (`&`, `<`, `>`, `"`, `'`).
   - Pretty-printed output with indentation.
 - **Error Reporting**: Detailed error messages with line and column numbers.
-- **Bonus Features**:
+- **Extra Features**:
   - Pretty-printed XML output.
   - AST structure visualization.
   - Column-based error details.
@@ -56,8 +56,3 @@ The tree is traversed recursively to generate the XML output. Objects and arrays
 - `expected_outputs/`: Directory containing translated XML outputs for verification.
 - `Makefile`: Build automation script.
 - `README.md`: Project documentation.
-
-## Assumptions
-- Keys in JSON objects are valid XML tag names (as per assignment instructions).
-- Input JSON is valid according to standard JSON syntax.
-- Basic unescaping is supported via standard regex matching.
