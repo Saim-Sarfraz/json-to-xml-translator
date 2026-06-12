@@ -1,7 +1,5 @@
 # JSON to XML Translator
 
-A compiler-style translator that converts valid JSON input into well-formed XML. Built using Flex, Bison, and C++.
-
 ## Features
 - **Full JSON Support**: Handles objects, arrays, strings, numbers, booleans, and null.
 - **AST Construction**: Builds a complete Abstract Syntax Tree before translation.
